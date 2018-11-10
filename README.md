@@ -1,3 +1,4 @@
+# Discrete Event Simulator
 This program is a Discrete Event Simulator, based on Giogrio's Discrete Event Simulator.
 It is a simple model of how processes move through a computing system.
 
@@ -15,7 +16,9 @@ the job to the CPU queue. The simulation continues in this loop until a "Simulat
 pulled off the event queue. At the start of every iteration of the loop, a new job arrived event is
 created.
 
-This is how the program is set up. There are 3 files that contain the code for this simulation. In
+This is how the program is set up. 
+The main code for the simuation is in  "eventSim.c".
+There are 3 files that contain the code for this simulation. In
 one file, called “fqueue.c”, I have only written code that implements a FIFO queue as a linked
 list data structure. This file contains a structure called “fNode” which is the node I have created
 to be used as the node for all FIFO queues. In this file, there are also functions for the FIFO
